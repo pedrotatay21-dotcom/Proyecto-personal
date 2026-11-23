@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mi formación: cursos, centros y años.">
+  <meta name="author" content="Pedro">
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <title>Estudios - Mi web personal</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header id="inicio">
+    <h1>Mis estudios</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="aficiones.html">Aficiones</a>
+      <a href="estudios.html" aria-current="page">Estudios</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Mi formación</h2>
+      <table>
+        <caption>Resumen de mis estudios</caption>
+        <thead>
+          <tr>
+            <th>Curso</th>
+            <th>Centro</th>
+            <th>Año</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>ESO</td>
+            <td>IES ...</td>
+            <td>2020</td>
+          </tr>
+          <tr>
+            <td>Bachillerato</td>
+            <td>IES ...</td>
+            <td>2022</td>
+          </tr>
+          <tr>
+            <td>Ciclo formativo</td>
+            <td>IES ...</td>
+            <td>2026</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Lo que estoy aprendiendo</h2>
+      <p>
+        <label for="p-html">HTML:</label>
+        <progress id="p-html" value="70" max="100">70%</progress>
+      </p>
+      <p>
+        <label for="p-css">CSS:</label>
+        <progress id="p-css" value="40" max="100">40%</progress>
+      </p>
+      <p>
+        <label for="p-redes">Redes y sistemas:</label>
+        <progress id="p-redes" value="50" max="100">50%</progress>
+      </p>
+      <p>
+        <label for="p-claude">Sistema en IA y claude:</label>
+        <progress id="p-claude" value="100" max="100">100%</progress>
+      </p>
+      <p class="destacado">Si quieres aprender HTML, mira la <a href="https://developer.mozilla.org/es/docs/Learn/HTML" target="_blank" rel="noopener">guía de MDN</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Pedro - Mi web personal</p>
+    <address>¿Dudas? <a href="contacto.html">Escríbeme</a></address>
+    <p><a href="#inicio">⬆ Volver arriba</a></p>
+  </footer>
+</body>
+</html>
